@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="commande.php" method="post" onsubmit="return verif1()">
+        <fieldset>
+            <legend>commande de pizza</legend>
+            <table>
+                <tr>
+                <td><label for="">type pizza:</label></td>
+                <td><select name="liste" id="liste">
+                    <option value="">choisir une pizza</option>
+                    <option value="	Fmr">fruitd de mer</option>
+                    <option value="Mgh">margherita</option>
+                    <option value="Nap">napolitaine</option>
+                    <option value="Nep">neptune</option>
+                    <option value="Roy">royale</option>
+                </select></td>
+                <td><label for="">Quantité;</label></td>
+                <td><input type="text" id="qte" name="qte"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="">tel:</label></td>
+                    <td><input type="text" id="tel" name="tel"></td>
+                    <td><label for="">mot de passe:</label></td>
+                    <td><input type="text" id="mtp" name="mtp"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
